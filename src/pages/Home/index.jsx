@@ -1,6 +1,7 @@
 import Section from '../../componentes/Section/index'
-
+import Carousel from '../../componentes/carrossel';
 const Home = () => {
+    
     return (
         <div className="relative">
             <Section
@@ -29,6 +30,16 @@ const Home = () => {
                 buttonColor="bg-pink-600"
                 textColor="text-pink-300"
             />
+
+             {/* Seção do Carrossel */}
+             <div className="bg-black py-16">
+                <div className="max-w-7xl mx-auto px-4">
+                    <h2 className="text-4xl font-bold text-white text-center mb-12">
+                        Destaques
+                    </h2>
+                    <Carousel />
+                </div>
+            </div>
         </div>
     );
 }

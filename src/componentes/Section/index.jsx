@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor }) => {
     return (
         <div className={`relative h-screen bg-fixed bg-center bg-cover bg-no-repeat border-b-8 ${borderColor}`} 
@@ -8,7 +9,7 @@ const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor
                         {title}
                     </h1>
                     <p className="text-xl md:text-2xl mb-8">{subtitle}</p>
-                    <button className={`${buttonColor} hover:bg-opacity-80 text-white font-bold py-3 px-8 rounded-full 
+                    <button className={`${buttonColor} hover:bg-opacity-80 text-white font-whisper font-bold py-3 px-8 rounded-full 
                                         transform transition hover:scale-105 hover:shadow-neon`}>
                         Ouvir Agora
                     </button>
