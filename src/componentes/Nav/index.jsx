@@ -13,8 +13,8 @@ const Nav = () => {
                         <Link to="/" className="text-gray-300 hover:text-green-500 transition-colors">
                             Home
                         </Link>
-                        <Link to="/musicas" className="text-gray-300 hover:text-green-500 transition-colors">
-                            Músicas
+                        <Link to="/Loja" className="text-gray-300 hover:text-green-500 transition-colors">
+                            Loja
                         </Link>
                         <Link to="/about" className="text-gray-300 hover:text-green-500 transition-colors">
                             Sobre

@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "titulo": "Validation",
+        "artista": "YUNG LIXO",
+        "ano": 2022,
+        "musicas": [
+            {
+                "id": 101,
+                "nome": "Sucesso FM",
+                "duracao": "3:12"
+            },
+            {
+                "id": 102,
+                "nome": "Rumo à Vitória",
+                "duracao": "3:45"
+            },
+            {
+                "id": 103,
+                "nome": "Goddamn (feat. Biffe)",
+                "duracao": "4:20"
+            },
+            {
+                "id": 104,
+                "nome": "I Walk (feat. Massaru)",
+                "duracao": "3:50"
+            },
+            {
+                "id": 105,
+                "nome": "Waiting to Fly",
+                "duracao": "4:00"
+            },
+            {
+                "id": 106,
+                "nome": "I'm in Love (feat. Astrus*)",
+                "duracao": "3:30"
+            },
+            {
+                "id": 107,
+                "nome": "For my Family (feat. MAIK sbkaos)",
+                "duracao": "3:55"
+            },
+            {
+                "id": 108,
+                "nome": "Going Home (feat. The Merk)",
+                "duracao": "4:10"
+            },
+            {
+                "id": 109,
+                "nome": "The Lord and Me (feat. Biffe)",
+                "duracao": "4:05"
+            },
+            {
+                "id": 110,
+                "nome": "Anjos da Guarda (feat. Biffe)",
+                "duracao": "3:40"
+            },
+            {
+                "id": 111,
+                "nome": "We Gold",
+                "duracao": "3:25"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Bittersweet Memories",
+        "artista": "YUNG LIXO",
+        "ano": 2023,
+        "musicas": [
+            {
+                "id": 201,
+                "nome": "O Filho Pródigo",
+                "duracao": "3:15"
+            },
+            {
+                "id": 202,
+                "nome": "Let it Pour",
+                "duracao": "3:50"
+            },
+            {
+                "id": 203,
+                "nome": "The Story",
+                "duracao": "4:05"
+            },
+            {
+                "id": 204,
+                "nome": "Back Home",
+                "duracao": "3:40"
+            },
+            {
+                "id": 205,
+                "nome": "Melhor Não",
+                "duracao": "3:30"
+            },
+            {
+                "id": 206,
+                "nome": "Oldschool",
+                "duracao": "3:55"
+            },
+            {
+                "id": 207,
+                "nome": "Dirty Dancing",
+                "duracao": "4:10"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "13 Lentes",
+        "artista": "Artista Desconhecido",
+        "ano": "Desconhecido",
+        "musicas": [
+            {
+                "id": 301,
+                "nome": "Faixa 1",
+                "duracao": "Desconhecido"
+            },
+            {
+                "id": 302,
+                "nome": "Faixa 2",
+                "duracao": "Desconhecido"
+            },
+            {
+                "id": 303,
+                "nome": "Faixa 3",
+                "duracao": "Desconhecido"
+            }
+
+        ]
+    }
+]

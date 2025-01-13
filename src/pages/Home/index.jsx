@@ -11,6 +11,7 @@ const Home = () => {
                 borderColor="border-green-500"
                 buttonColor="bg-green-600"
                 textColor="text-green-300"
+                albumId={1}
             />
             
             <Section
@@ -20,6 +21,7 @@ const Home = () => {
                 borderColor="border-blue-500"
                 buttonColor="bg-blue-600"
                 textColor="text-blue-300"
+                albumId={2}
             />
             
             <Section
@@ -29,6 +31,7 @@ const Home = () => {
                 borderColor="border-pink-500"
                 buttonColor="bg-pink-600"
                 textColor="text-pink-300"
+                albumId={3}
             />
 
              {/* Seção do Carrossel */}
