@@ -28,7 +28,7 @@ const Carousel = () => {
     ];
 
     return (
-        <div className="py-12 bg-black">
+        <div className="py-12 bg-transparent">
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}

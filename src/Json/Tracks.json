@@ -8,57 +8,68 @@
             {
                 "id": 101,
                 "nome": "Sucesso FM",
-                "duracao": "3:12"
+                "duracao": "3:12",
+                "link":"https://www.youtube.com/watch?v=tqdOIs3K-SA"
             },
             {
                 "id": 102,
                 "nome": "Rumo à Vitória",
-                "duracao": "3:45"
+                "duracao": "3:45",
+                "link":"https://youtu.be/U7X8I-dYMXI?si=8R3ABfoQh2PkvS8m"
             },
             {
                 "id": 103,
                 "nome": "Goddamn (feat. Biffe)",
-                "duracao": "4:20"
+                "duracao": "4:20",
+                "link":"https://www.youtube.com/watch?v=82-jkPRrPjQ&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=3"
             },
             {
                 "id": 104,
                 "nome": "I Walk (feat. Massaru)",
-                "duracao": "3:50"
+                "duracao": "3:50",
+                "link":"https://www.youtube.com/watch?v=STA78Wk-CMM&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=4"
             },
             {
                 "id": 105,
                 "nome": "Waiting to Fly",
-                "duracao": "4:00"
+                "duracao": "4:00",
+                "link":"https://www.youtube.com/watch?v=oV1y68XSPws&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=5"
             },
             {
                 "id": 106,
                 "nome": "I'm in Love (feat. Astrus*)",
-                "duracao": "3:30"
+                "duracao": "3:30",
+                "link":"https://www.youtube.com/watch?v=zLJIkEzdmAg&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=6"
             },
             {
                 "id": 107,
                 "nome": "For my Family (feat. MAIK sbkaos)",
-                "duracao": "3:55"
+                "duracao": "3:55",
+                "link":"https://www.youtube.com/watch?v=0eOKg88Jcew&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=7"
             },
             {
                 "id": 108,
                 "nome": "Going Home (feat. The Merk)",
-                "duracao": "4:10"
+                "duracao": "4:10",
+                "link":"https://www.youtube.com/watch?v=FZUB-ZSP0RU&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=8"
             },
             {
                 "id": 109,
                 "nome": "The Lord and Me (feat. Biffe)",
-                "duracao": "4:05"
+                "duracao": "4:05",
+                "link":"https://www.youtube.com/watch?v=yba2g3aKItA&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=9"
             },
             {
                 "id": 110,
                 "nome": "Anjos da Guarda (feat. Biffe)",
-                "duracao": "3:40"
+                "duracao": "3:40",
+                "link":"https://www.youtube.com/watch?v=gI_2-LacLiI&list=PLSptejTZ0klNUClwbquJT_qbjtIdzoTPu&index=10"
             },
             {
                 "id": 111,
                 "nome": "We Gold",
-                "duracao": "3:25"
+                "duracao": "3:25",
+                "link":"https://www.youtube.com/watch?v=NCMzWnmq45I"
             }
         ]
     },
@@ -71,61 +82,157 @@
             {
                 "id": 201,
                 "nome": "O Filho Pródigo",
-                "duracao": "3:15"
+                "duracao": "3:15",
+                "link":"https://youtu.be/rsxeE1WkHqw?si=b2S8FOBImamsDFxa"
             },
             {
                 "id": 202,
                 "nome": "Let it Pour",
-                "duracao": "3:50"
+                "duracao": "3:50",
+                "link":"https://youtu.be/KzUUemEW_iI?si=fk6olaXxfdr9SCgw"
             },
             {
                 "id": 203,
                 "nome": "The Story",
-                "duracao": "4:05"
+                "duracao": "4:05",
+                "link":"https://youtu.be/qkaxqSGI_OE?si=qKtlAKdfB2TkQhX3"
             },
             {
                 "id": 204,
                 "nome": "Back Home",
-                "duracao": "3:40"
+                "duracao": "3:40",
+                "link":"https://youtu.be/fnRyVCxqLqk?si=Qsd1uoKsGQk5-kGy"
             },
             {
                 "id": 205,
                 "nome": "Melhor Não",
-                "duracao": "3:30"
+                "duracao": "3:30",
+                "link":"https://youtu.be/RMeJND0yzeM?si=bBasvOg4fqp2Lei5"
             },
             {
                 "id": 206,
                 "nome": "Oldschool",
-                "duracao": "3:55"
+                "duracao": "3:55",
+                "link":"https://youtu.be/yApMEdYtkGM?si=Q1Q0HJ9PLDxcegWk"
             },
             {
                 "id": 207,
                 "nome": "Dirty Dancing",
-                "duracao": "4:10"
+                "duracao": "4:10",
+                "link":"https://youtu.be/ZBe3GmoFJys?si=iS4Gc7QjmLfMzMk2"
             }
+            ,{
+                "id": 208,
+                "nome": "Saúde",
+                "duracao": "4:10",
+                "link":"https://youtu.be/xXeDMfisrU8?si=gIcnDcGd58iWG_ap"
+            }
+            ,{
+                "id": 209,
+                "nome": "quase perfeito",
+                "duracao": "4:10",
+                "link":"https://youtu.be/vLQR5UCq5J0?si=9MM5oQDQciP44pg5"
+            }
+            ,{
+                "id": 210,
+                "nome": "Máquina do tempo",
+                "duracao": "4:10",
+                "link":"https://youtu.be/Z7LsJA7NJF0?si=9eprnLhJvCLcrIhU"
+            }
+            ,{
+                "id": 211,
+                "nome": "Flores de outro carnaval",
+                "duracao": "4:10",
+                "link":"https://youtu.be/tR-m63k2nNM?si=_5jQLdh87rLMvDkN"
+            }
+            
         ]
     },
     {
         "id": 3,
-        "titulo": "13 Lentes",
+        "titulo": "13 Lentes de um final feliz",
         "artista": "Artista Desconhecido",
         "ano": "Desconhecido",
         "musicas": [
             {
                 "id": 301,
-                "nome": "Faixa 1",
-                "duracao": "Desconhecido"
+                "nome": "Au revoir",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/asI5cHpQPAA?si=q0vZqPsStnWfKR-V"
             },
             {
                 "id": 302,
-                "nome": "Faixa 2",
-                "duracao": "Desconhecido"
+                "nome": "Carruagem",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/wRlhPzhgqu0?si=cupOhxwKCfcuj22I"
             },
             {
                 "id": 303,
-                "nome": "Faixa 3",
-                "duracao": "Desconhecido"
+                "nome": "Agradeço",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/GPemhYrDATw?si=ad_0i_ZNwmJOCerD"
+            } ,
+            {
+                "id": 304,
+                "nome": "Corrida",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/mNlhepSXi4g?si=nVPRIJw_rvITy___"
+            }, 
+            {
+                "id": 305,
+                "nome": " Joias da família",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/WlylgE8fSLs?si=V8S2vR9dTmoJkfSS"
+            }, 
+            {
+                "id": 306,
+                "nome": "Nunca paro",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/TSLRScqwemI?si=v_X1YLW0It1w3usy"
+            }, 
+            {
+                "id": 307,
+                "nome": "Memórias",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/GC-BHmtlhFQ?si=FgFkEyp4ytgrPARp"
+            }, 
+            {
+                "id": 308,
+                "nome": "Lost in translation",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/6ep0itQcsUM?si=fvFicOEwNppG1DLx"
+            }, 
+            {
+                "id": 309,
+                "nome": "Primavera",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/nKJyKsFgDJY?si=QtxyUR0JkfSVF0_p"
+            }, 
+            {
+                "id": 310,
+                "nome": " Let me see the sun",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/MVrIi0zI6gc?si=aYAUArO_YN-8l9wY"
+            }, 
+            {
+                "id": 311,
+                "nome": "Adeus",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/vWsdkDa3vOw?si=I6LhNIlUAEQ1Vmcd"
+            },  
+            {
+                "id": 312,
+                "nome": "Deixa doer",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/cgW6sqr8X0k?si=nIzj7PcRp-ZlbONI"
+            },
+            {
+                "id": 312,
+                "nome": "Não me faça falar",
+                "duracao": "Desconhecido",
+                "link":"https://youtu.be/Ryz5LuaFznM?si=erD6OLQCJ-rKSZHb"
             }
+                    
 
         ]
     }

@@ -5,6 +5,7 @@ import NotFound from './pages/NotFound';
 import Nav from './componentes/Nav'
 import Album from './pages/Album/index';
 import Sobre from './pages/Sobre/index'
+import Footer from './componentes/footer'
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path="/album/:id" element={<Album />} />
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   )
 }
