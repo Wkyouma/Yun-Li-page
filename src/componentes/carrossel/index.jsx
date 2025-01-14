@@ -14,13 +14,13 @@ const Carousel = () => {
         },
         {
             id: 2,
-            image: './Galeria/teste1.jpg',
+            image: './Galeria/teste6.jpg',
             title: 'Shows 2024',
             subtitle: 'Confira as datas da turnê'
         },
         {
             id: 3,
-            image: './Galeria/teste5.webp',
+            image: './Galeria/album2.jpg',
             title: 'Colaborações',
             subtitle: 'Featuring com os maiores do trap'
         },

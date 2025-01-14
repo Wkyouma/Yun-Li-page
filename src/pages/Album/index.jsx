@@ -2,8 +2,9 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { GoArrowLeft } from 'react-icons/go';
 import Albuns from '../../Json/Tracks.json';
-import Teste from '/Galeria/teste.jpg';
-import testes from '/Galeria/teste1.jpg';
+import album1 from '/Galeria/album1.jpg';
+import album2 from '/Galeria/teste1000.jpg';
+import album3 from '/Galeria/album3.jpg';
 
 const Album = () => {
     const { id } = useParams();
@@ -12,9 +13,9 @@ const Album = () => {
 
     const getAlbumColors = (albumId) => {
         const colors = {
-            1: { back: Teste, text: "text-green-300", accent: "text-green-500", hover: "hover:text-green-400", butao:"bg-green-400" },
-            2: { back: testes, text: "text-blue-300", accent: "text-blue-500", hover: "hover:text-blue-400", butao:"bg-blue-400" },
-            3: { back: "bg-pink-400", text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400", butao:"bg-pink-400" },
+            1: { back: album1, text: "text-green-300", accent: "text-green-500", hover: "hover:text-green-400", butao:"bg-green-400" },
+            2: { back: album2, text: "text-blue-300", accent: "text-blue-500", hover: "hover:text-blue-400", butao:"bg-blue-400" },
+            3: { back: album3, text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400", butao:"bg-pink-400" },
             4: { back: "bg-pink-400", text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400" }
         };
         return colors[albumId] || colors[1];
