@@ -6,7 +6,7 @@ const Home = () => {
         <div className="relative bg-gradient-to-r from-slate-800  to-black">
             <Section
                 title="Validation"
-                subtitle="teste | teste"
+                subtitle="Hakuro | YunLi"
                 bgImage="/Galeria/teste.jpg"
                 borderColor="border-green-500"
                 buttonColor="bg-green-600"
@@ -34,15 +34,7 @@ const Home = () => {
                 albumId={3}
             />
            
-             {/* Seção do Carrossel */}
-             <div className="bg-transparent py-16">
-                <div className="max-w-7xl mx-auto px-4">
-                    <h2 className="text-4xl font-bold text-white text-center mb-12">
-                        Destaques
-                    </h2>
-                    <Carousel />
-                </div>
-            </div>
+             
         </div>
     );
 }

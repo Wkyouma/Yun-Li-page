@@ -13,9 +13,9 @@ const Album = () => {
 
     const getAlbumColors = (albumId) => {
         const colors = {
-            1: { back: album1, text: "text-green-300", accent: "text-green-500", hover: "hover:text-green-400", butao:"bg-green-400" },
-            2: { back: album2, text: "text-blue-300", accent: "text-blue-500", hover: "hover:text-blue-400", butao:"bg-blue-400" },
-            3: { back: album3, text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400", butao:"bg-pink-400" },
+            1: { back: album1, text: "text-green-300", accent: "text-green-500", hover: "hover:text-green-400", butao:"bg-green-400", Video:"border-green-500" },
+            2: { back: album2, text: "text-blue-300", accent: "text-blue-500", hover: "hover:text-blue-400", butao:"bg-blue-400", Video:"border-blue-500" },
+            3: { back: album3, text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400", butao:"bg-pink-400" , Video:"border-pink-500"},
             4: { back: "bg-pink-400", text: "text-pink-300", accent: "text-pink-500", hover: "hover:text-pink-400" }
         };
         return colors[albumId] || colors[1];
@@ -46,6 +46,8 @@ const Album = () => {
                         </h1>
                         <div className="flex items-center gap-4 text-gray-400">
                             <span className="text-lg md:text-xl">{album.artista}</span>
+                            <span>-</span>
+                            <span className="text-lg md:text-xl">{album.ano}</span>
                         </div>
                     </div>
                 </div>
@@ -72,6 +74,21 @@ const Album = () => {
                         </motion.li>
                     ))}
                     </ul>
+                   
+                </div>
+                
+                <div className="video_container flex justify-center items-center min-h-screen py-10">
+                    <div className="relative w-full max-w-4xl aspect-video rounded-lg overflow-hidden shadow-lg border-4 border-gray-800">
+                        <iframe
+                            src={`${album.documentario}`}
+                            className="w-full h-full transition-transform duration-300 transform "
+                            title="Documentário"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            loading="lazy"
+                        ></iframe>
+                  
+                    </div>
                 </div>
             </div>
         </motion.div>

@@ -1,15 +1,30 @@
 import { motion } from "framer-motion";
-import Section from "../../componentes/Section";
+
 const Sobre = () => {
   return (
-  <div className={`relative h-screen bg-fixed bg-center bg-cover bg-no-repeat border-b-8 border-black`} 
-    style={{ backgroundImage: "url(./Galeria/teste8.jpg)" }}>
-    <div className="absolute inset-0 bg-black/50">
-       <div className="pt-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
-       </div>
+    <div className="">
+
+      <div
+        className="h-screen w-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/Galeria/teste8.jpg')",
+          backgroundAttachment: "fixed"
+         }}
+      ></div>
+      <div className="flex flex-col items-center  bg-black text-white ">
+        <h1 className=" m-2 text-3xl">Sobre</h1>
+        <div className="flex justify-center">
+          <p className="p-4 w-2/4">
+          l Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur recusandae ad beatae velit, ea aliquid debitis laboriosam maiores impedit in, a nemo, perferendis eveniet amet aliquam! Numquam totam deleniti cupiditate?
+          </p>
+        </div>
+      </div>
+      <div
+        className="h-screen w-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/Galeria/album2.jpg')",
+          backgroundAttachment: "fixed"
+         }}
+      ></div>
     </div>
-    </div>
-    
   );
 };
 

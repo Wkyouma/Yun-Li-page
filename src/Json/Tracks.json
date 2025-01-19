@@ -4,6 +4,8 @@
         "titulo": "Validation",
         "artista": "YUNG LIXO",
         "ano": 2022,
+        "documentario": "https://www.youtube.com/embed/isYTbfw7Sfg",
+
         "musicas": [
             {
                 "id": 101,
@@ -78,6 +80,7 @@
         "titulo": "Bittersweet Memories",
         "artista": "YUNG LIXO",
         "ano": 2023,
+        "documentario":"https://www.youtube.com/embed/j2hjqXYbD6A",
         "musicas": [
             {
                 "id": 201,
@@ -151,8 +154,9 @@
     {
         "id": 3,
         "titulo": "13 Lentes de um final feliz",
-        "artista": "Artista Desconhecido",
-        "ano": "Desconhecido",
+        "artista": "YUNG LIXO",
+        "ano": "2024",
+        "documentario":"https://www.youtube.com/embed/6diMpCgmdEE",
         "musicas": [
             {
                 "id": 301,

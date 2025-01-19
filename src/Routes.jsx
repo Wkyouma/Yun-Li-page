@@ -6,6 +6,7 @@ import Nav from './componentes/Nav'
 import Album from './pages/Album/index';
 import Sobre from './pages/Sobre/index'
 import Footer from './componentes/footer'
+import Loja from './pages/Loja/index'
 function App() {
   return (
     <BrowserRouter>
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/About' element={<Sobre></Sobre>}></Route>
-        <Route path='/Loja' element={<Sobre></Sobre>}></Route>
+        <Route path='/Loja' element={<Loja></Loja>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path="/album/:id" element={<Album />} />
       </Routes>
