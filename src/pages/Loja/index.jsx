@@ -16,14 +16,10 @@ const Loja = () => {
         <h1 className="text-4xl md:text-5xl text-center text-white mb-5">Loja</h1>
         {/* Seção do Conteiner dos cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          <Cards background="./Galeria/teste.jpg" />
-          <Cards background="./Galeria/teste2.jpg" />
-          <Cards background="./Galeria/teste3.jpg" />
-          <Cards background="./Galeria/foto.jpg" />
-          <Cards background="./Galeria/foto.jpg" />
-          <Cards background="./Galeria/foto.jpg" />
-          <Cards background="./Galeria/foto.jpg" />
-          <Cards background="./Galeria/foto.jpg" />
+          <Cards Titulo="Ole" texto="lorem" background="./Galeria/teste.jpg" />
+          <Cards Titulo="Ole" texto="lorem"  background="./Galeria/teste2.jpg" />
+          <Cards Titulo="Ole" texto="lorem"  background="./Galeria/teste3.jpg" />
+    
         </div>
       </div>
     </div>
