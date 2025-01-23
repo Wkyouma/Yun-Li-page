@@ -24,7 +24,7 @@ const Cards = ({ background, backgroundHover, Titulo, texto }) => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         
         {/* Texto e botão */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[65%] group-hover:translate-y-0 transition-all">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[75%] group-hover:translate-y-0 transition-all">
           <h1 className="text-1xl font-bold text-white">{Titulo}</h1>
           <p className="text-white text-lg italic mb-3">{texto}</p>
           <button className="rounded-full bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white hover:bg-slate-600">
