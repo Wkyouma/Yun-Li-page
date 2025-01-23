@@ -1,5 +1,6 @@
 import Cards from "../../componentes/Cards";
 import Carousel from "../../componentes/carrossel";
+import product  from './Loja.json'
 
 const Loja = () => {
   return (
@@ -14,12 +15,12 @@ const Loja = () => {
       {/* Seção do Conteúdo */}
       <div className="flex flex-col items-center ">
         <h1 className="text-4xl md:text-5xl text-center text-white mb-5">Loja</h1>
-        {/* Seção do Conteiner dos cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          <Cards Titulo="Ole" texto="lorem" backgroundHover="./Loja/camisa2.jpg" background="./Loja/camisa1.jpg" />
-          <Cards Titulo="Ole" texto="lorem" backgroundHover="./Loja/camisa3.jpg"  background="./Loja/camisa2.jpg" />
-          <Cards Titulo="Ole" texto="lorem"  background="./Loja/camisa3.jpg" />
-          <Cards Titulo="Ole" texto="lorem"  background="./Loja/moletom1.jpg" />    
+          {
+            product.map((product ) => (
+              <Cards Titulo={product.titulo} background={product.frente} backgroundHover={product.atras} />
+            ))
+          } 
         </div>
       </div>
     </div>

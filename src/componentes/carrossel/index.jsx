@@ -8,13 +8,13 @@ const Carousel = () => {
     const slides = [
         {
             id: 1,
-            image: './Galeria/teste.jpg',
-            title: 'Novo Single',
-            subtitle: 'Ouça agora em todas as plataformas'
+            image: './Loja/banner.webp',
+            title: 'Promoção',
+            subtitle: 'Compre agora'
         },
         {
             id: 2,
-            image: './Galeria/teste6.jpg',
+            image: './Loja/banner3.jpg',
             title: 'Shows 2024',
             subtitle: 'Confira as datas da turnê'
         },
