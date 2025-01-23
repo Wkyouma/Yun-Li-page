@@ -1,4 +1,12 @@
+import { useContext } from "react";
+import { CartContext } from '../../context/CardContext'
 const Cards = ({ background, backgroundHover, Titulo, texto }) => {
+  const { addToCart } = useContext(CartContext);
+
+  const handleAddToCart = () => {
+    const product = { title: Titulo, price: texto, front: background, back: backgroundHover };
+    addToCart(product);
+  };
   return (
     <div className="grid w-72 m-2">
       <div className="group relative items-center justify-center overflow-hidden cursor-pointer rounded-md">
@@ -27,7 +35,7 @@ const Cards = ({ background, backgroundHover, Titulo, texto }) => {
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[75%] group-hover:translate-y-0 transition-all">
           <h1 className="text-1xl font-bold text-white">{Titulo}</h1>
           <p className="text-white text-lg italic mb-3">{texto}</p>
-          <button className="rounded-full bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white hover:bg-slate-600">
+          <button onClick={handleAddToCart} className="rounded-full bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white hover:bg-slate-600">
             Adicionar
           </button>
         </div>

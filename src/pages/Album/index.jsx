@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { GoArrowLeft } from 'react-icons/go';
+
 import Albuns from '../../Json/Tracks.json';
 import album1 from '/Galeria/album1.jpg';
 import album2 from '/Galeria/teste1000.jpg';
@@ -22,6 +23,7 @@ const Album = () => {
     };
 
     const colors = getAlbumColors(albumId);
+
 
     return (
         <motion.div 

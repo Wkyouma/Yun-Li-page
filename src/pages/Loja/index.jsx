@@ -17,8 +17,8 @@ const Loja = () => {
         <h1 className="text-4xl md:text-5xl text-center text-white mb-5">Loja</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {
-            product.map((product ) => (
-              <Cards Titulo={product.titulo} texto={product.preço} background={product.frente} backgroundHover={product.atras} />
+            product.map((product, index ) => (
+              <Cards key={index} Titulo={product.titulo} texto={product.preço} background={product.frente} backgroundHover={product.atras} />
             ))
           } 
         </div>
