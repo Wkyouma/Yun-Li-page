@@ -7,17 +7,17 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = (product) => {
     setCart((prevCart) => {
-      const isProductInCart = prevCart.some((item) => item.title === product.title);
+      const isProductInCart = prevCart.some((item) => item.id === product.id);
       if (isProductInCart) {
-        return prevCart; // Não adiciona duplicatas
+        return prevCart; 
       }
       return [...prevCart, product];
     });
   };
   
 
-  const removeFromCart = (productId) => {
-    setCart((prevCart) => prevCart.filter((item) => item.id !== productId));
+  const removeFromCart = (id) => {
+    setCart((prevCart) => prevCart.filter((item) => item.id !== id));
   };
 
   const clearCart = () => {

@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { CartContext } from '../../context/CardContext'
-const Cards = ({ background, backgroundHover, Titulo, texto }) => {
+const Cards = ({ productId, background, backgroundHover, Titulo, texto }) => {
   const { addToCart } = useContext(CartContext);
 
   const handleAddToCart = () => {
-    const product = { title: Titulo, price: texto, front: background, back: backgroundHover };
+    const product = {id: productId, title: Titulo, price: texto, front: background};
     addToCart(product);
   };
   return (

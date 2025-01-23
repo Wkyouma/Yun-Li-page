@@ -2,21 +2,21 @@
     {
         "id": 1,
         "titulo": "CAMISETA OVERSIZED PRETA - VALIDATION DELUXE",
-        "preço":"R$ 219,90",
+        "preço":"R$ 99,90",
         "frente": "/Loja/e.jpg",
         "atras": "/Loja/camisa1.jpg"
       },
       {
         "id": 2,
         "titulo": "CAMISETA OVERSIZED OFF WHITE - VALIDATION DELUXE",
-        "preço":"R$ 219,90",
+        "preço":"R$ 99,90",
         "frente": "/Loja/camisa2f.jpg",
         "atras": "/Loja/camisa2.jpg"
       },
       {
         "id": 3,
         "titulo": "CAMISETA OVERSIZED PRETA - BITTERSWEET MEMORIES",
-        "preço":"R$ 219,90",
+        "preço":"R$ 99,90",
         "frente": "/Loja/camisa3tras.jpg",
         "atras": "/Loja/camisa3.jpg"
       },
@@ -29,7 +29,7 @@
       }
       ,
       {
-        "id": 4,
+        "id": 5,
         "titulo": "MOLETOM PRETO - BITTERSWEET MEMORIES",
         "preço":"R$ 219,90",
         "frente": "/Loja/moletom2f.jpg",
@@ -37,7 +37,7 @@
       }
       ,
       {
-        "id": 4,
+        "id": 6,
         "titulo": "MOLETOM SOBREPOSIÇÃO PRETO E AZUL PETRÓLEO - VALIDATION DELUXE",
         "preço":"R$ 219,90",
         "frente": "/Loja/moletom3.jpg",
@@ -45,9 +45,9 @@
       }
       ,
       {
-        "id": 4,
+        "id": 7,
         "titulo": "CD YUN LI - BITTERSWEET MEMORIES",
-        "preço":"R$ 219,90",
+        "preço":"R$ 49,90",
         "frente": "/Loja/Cd.jpg",
         "atras": "/Loja/Cds.webp"
       }
