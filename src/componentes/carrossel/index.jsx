@@ -17,13 +17,8 @@ const Carousel = () => {
             image: './Loja/banner3.jpg',
             title: 'Shows 2024',
             subtitle: 'Confira as datas da turnê'
-        },
-        {
-            id: 3,
-            image: './Galeria/album2.jpg',
-            title: 'Colaborações',
-            subtitle: 'Featuring com os maiores do trap'
-        },
+        }
+        
       
     ];
 

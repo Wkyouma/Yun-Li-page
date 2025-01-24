@@ -14,7 +14,7 @@ const Loja = () => {
 
       {/* Seção do Conteúdo */}
       <div className="flex flex-col items-center ">
-        <h1 className="text-4xl md:text-5xl text-center text-white mb-5">Loja</h1>
+        <h1 className="text-4xl md:text-5xl text-center text-white mb-5">Produtos</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {
             product.map((product ) => (
