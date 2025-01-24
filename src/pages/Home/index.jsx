@@ -6,7 +6,7 @@ const Home = () => {
         <div className="relative bg-gradient-to-r from-slate-800  to-black">
             <Section
                 title="Validation"
-                subtitle="Hakuro | YunLi"
+                subtitle="biffe | hakuro"
                 bgImage="/Galeria/teste.jpg"
                 borderColor="border-green-500"
                 buttonColor="bg-green-600"
@@ -16,7 +16,7 @@ const Home = () => {
             
             <Section
                 title="Bittersweet Memories"
-                subtitle="teste | teste"
+                subtitle="biffe  | hakuro"
                 bgImage="/Galeria/teste1.jpg"
                 borderColor="border-blue-500"
                 buttonColor="bg-blue-600"
@@ -26,7 +26,7 @@ const Home = () => {
             
             <Section
                 title="13 Lentes de um final feliz"
-                subtitle="teste | teste"
+                subtitle="biffe | hakuro"
                 bgImage="/Galeria/teste2.jpg"
                 borderColor="border-pink-500"
                 buttonColor="bg-pink-600"

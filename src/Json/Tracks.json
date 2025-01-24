@@ -5,7 +5,7 @@
         "artista": "YUNG LIXO",
         "ano": 2022,
         "documentario": "https://www.youtube.com/embed/isYTbfw7Sfg",
-
+           "href":"https://open.spotify.com/album/1mRbJoqeSbu9hymCz5PxUY?si=Qp4QWAuzRYq3V-AywLtSpQ",
         "musicas": [
             {
                 "id": 101,
@@ -81,18 +81,21 @@
         "artista": "YUNG LIXO",
         "ano": 2023,
         "documentario":"https://www.youtube.com/embed/j2hjqXYbD6A",
+           "href":"https://open.spotify.com/album/3lSrcatiOSMpYbT4tGPmZh?si=qg3orpJlQaKJ-eWQtVXcPg",
         "musicas": [
             {
                 "id": 201,
                 "nome": "O Filho Pródigo",
                 "duracao": "3:15",
                 "link":"https://youtu.be/rsxeE1WkHqw?si=b2S8FOBImamsDFxa"
+                
             },
             {
                 "id": 202,
                 "nome": "Let it Pour",
                 "duracao": "3:50",
                 "link":"https://youtu.be/KzUUemEW_iI?si=fk6olaXxfdr9SCgw"
+             
             },
             {
                 "id": 203,
@@ -129,6 +132,7 @@
                 "nome": "Saúde",
                 "duracao": "4:10",
                 "link":"https://youtu.be/xXeDMfisrU8?si=gIcnDcGd58iWG_ap"
+                
             }
             ,{
                 "id": 209,
@@ -157,6 +161,7 @@
         "artista": "YUNG LIXO",
         "ano": "2024",
         "documentario":"https://www.youtube.com/embed/6diMpCgmdEE",
+           "href":"https://open.spotify.com/intl-pt/album/1MgcKezYb874hGsZgYYAdV?si=0APecR_JS9WwK1XpD5IQ_A",
         "musicas": [
             {
                 "id": 301,

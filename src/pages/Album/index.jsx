@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { GoArrowLeft } from 'react-icons/go';
-
+import { FaSpotify } from 'react-icons/fa';
 import Albuns from '../../Json/Tracks.json';
 import album1 from '/Galeria/album1.jpg';
 import album2 from '/Galeria/teste1000.jpg';
@@ -50,6 +50,9 @@ const Album = () => {
                             <span className="text-lg md:text-xl">{album.artista}</span>
                             <span>-</span>
                             <span className="text-lg md:text-xl">{album.ano}</span>
+                            <a href={album.href} target="_blank" rel="noopener noreferrer" className={`${colors.hover} transition duration-300`}>
+                                <FaSpotify className="w-6 h-6" />
+                            </a>
                         </div>
                     </div>
                 </div>

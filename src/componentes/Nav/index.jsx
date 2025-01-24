@@ -9,7 +9,7 @@ const Nav = () => {
                         YUN LI
                     </Link>
                     
-                    <div className="hidden md:flex space-x-8">
+                    <div className="space-x-4 md:flex md:space-x-8">
                         <Link to="/" className="text-gray-300 hover:text-green-500 transition-colors">
                             Home
                         </Link>

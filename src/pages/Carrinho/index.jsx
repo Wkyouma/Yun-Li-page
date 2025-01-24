@@ -13,12 +13,12 @@ const Carrinho = () => {
              <p className="text-center">O carrinho está vazio.</p>
           </div>
         ) : (
-          <div className="bg-white text-black h-auto min-h-96 flex flex-col m-5 rounded-md">
+          <div className="bg-white w-auto text-black h-auto min-h-96 flex flex-col m-5 rounded-md">
             <ul className="m-5">
               {cart.map((item, index) => (
                 <li
                   key={index}
-                  className="flex justify-between items-center py-4 border-b border-gray-600 gap-4"
+                  className="flex flex-col md:flex-row items-center md:justify-between py-4 border-b border-gray-300 gap-4"
                 >
                   <img className="w-20 h-35 rounded-md" src={item.front}></img>
                   <span>
