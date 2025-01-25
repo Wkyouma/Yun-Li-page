@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom';
-import useIsMobile from '../../context/ReponsiviContext'
+import useIsMobile from '../../context/ReponsiviContext';
 
 const Sobre = () => {
-  const isMobile = useIsMobile(); // Use o hook para verificar se é um dispositivo móvel
+  const isMobile = useIsMobile();
 
   return (
     <div className="">
-
-      {/* Banner inicial com imagem de fundo */}
       <div
-        className={`h-screen bg-cover bg-center flex flex-col justify-center items-center text-white relative ${isMobile ? 'bg-fixed' : 'bg-fixed'}`}
-        style={{ backgroundImage: "url('/Galeria/teste8.jpg')", backgroundAttachment: "fixed" }}
+        className={`h-screen bg-cover bg-center flex flex-col justify-center items-center text-white relative`}
+        style={{ 
+          backgroundImage: "url('/Galeria/teste8.jpg')", 
+          backgroundAttachment: isMobile ? 'scroll' : 'fixed' 
+        }}
       >
         <h1 className="text-6xl z-20 hover:scale-105 transition-all font-semibold mb-2">YUN LI</h1>
         <div className="flex gap-4 text-2xl z-20">
@@ -20,8 +21,6 @@ const Sobre = () => {
         </div>
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
-
-      {/* Seção Sobre com texto */}
       <div className="flex flex-col items-center font-serif bg-black text-white py-16 px-4">
         <h1 className="text-3xl mb-6">Sobre</h1>
         <div className="flex justify-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
@@ -30,21 +29,18 @@ const Sobre = () => {
           </p>
         </div>
       </div>
-
-      {/* Banner com imagem de fundo */}
       <div
-        className={`h-96 w-full bg-cover bg-center ${isMobile ? 'bg-fixed' : 'bg-fixed'}`}
-        style={{ backgroundImage: "url('/Galeria/bannersobre4.jpg')", backgroundAttachment: "fixed" }}
+        className={`h-96 w-full bg-cover bg-center`}
+        style={{ 
+          backgroundImage: "url('/Galeria/bannersobre4.jpg')", 
+          backgroundAttachment: isMobile ? 'scroll' : 'fixed' 
+        }}
       ></div>
-
-      {/* Citação e Vídeo do YouTube */}
       <div className="flex flex-col items-center bg-black text-white py-16 px-4">
         <div className="flex flex-col items-center justify-center w-full max-w-4xl">
           <p className="p-4 text-lg text-center font-serif">
             "Victor define o estilo do Yung Lixo como rap em geral, tendo músicas do gênero trap, mas também músicas mais voltadas para lo-fi e outros estilos de rap. Polaroid foi a primeira música mais voltada para lo-fi e "sad" que o músico lançou, antes disso a grande maioria eram traps com foco em comédia. A letra de Polaroid, seu maior sucesso até o momento é mais séria e voltada a um lado sentimental."
           </p>
-          
-          {/* Contêiner responsivo para o iframe */}
           <div className="w-full aspect-w-16 aspect-h-9 max-w-2xl my-4">
             <iframe
               className="w-full h-96 rounded-md border-4 border-slate-700"
@@ -56,14 +52,13 @@ const Sobre = () => {
           </div>
         </div>
       </div>
-
-      {/* Outro Banner com imagem de fundo */}
       <div
-        className={`h-96 w-full bg-cover bg-center ${isMobile ? 'bg-fixed' : 'bg-fixed'}`}
-        style={{ backgroundImage: "url('/Galeria/bannersobre.jpg')", backgroundAttachment: "fixed" }}
+        className={`h-96 w-full bg-cover bg-center`}
+        style={{ 
+          backgroundImage: "url('/Galeria/bannersobre.jpg')", 
+          backgroundAttachment: isMobile ? 'scroll' : 'fixed' 
+        }}
       ></div>
-
-      {/* Citação Final */}
       <div className="flex flex-col items-center bg-black text-white py-16 px-4">
         <div className="flex justify-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
           <p className="p-4 text-lg font-serif">

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import useIsMobile from '../../context/ReponsiviContext/'
 
 const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor, albumId }) => {
-    const isMobile = useIsMobile(); // Use o hook para verificar se é um dispositivo móvel
+    const isMobile = useIsMobile(); 
 
     return (
         <div className="relative h-screen overflow-hidden">
