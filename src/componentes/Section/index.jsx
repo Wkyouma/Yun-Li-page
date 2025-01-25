@@ -8,7 +8,7 @@ const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor
             <div 
                
         
-                className={`absolute inset-0 bg-fixed bg-center bg-cover bg-no-repeat border-b-8 ${borderColor}`} 
+                className={`bg-fixed bg-center bg-cover h-screen border-b-8  md:bg-scroll ${borderColor}`} 
                 style={{ backgroundImage: `url(${bgImage})` }}
             >
                 <div className="absolute inset-0 bg-black/50">
