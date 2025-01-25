@@ -6,7 +6,7 @@ const Home = () => {
         <div className="relative bg-gradient-to-r from-slate-800  to-black">
             <Section
                 title="Validation"
-                subtitle="biffe | hakuro"
+                subtitle="biffesss | hakuro"
                 bgImage="/Galeria/teste.jpg"
                 borderColor="border-green-500"
                 buttonColor="bg-green-600"
