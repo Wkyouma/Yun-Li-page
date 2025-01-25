@@ -1,25 +1,8 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import useIsMobile from '../../context/ReponsiviContext/'
 
 const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor, albumId }) => {
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        const checkMobile = () => {
-            setIsMobile(window.innerWidth <= 768); // Ajuste este valor conforme necessário
-        };
-
-        // Verifica o tamanho inicial da tela
-        checkMobile();
-
-        // Adiciona event listener para atualizar quando a tela for redimensionada
-        window.addEventListener('resize', checkMobile);
-
-        // Limpa o event listener quando o componente for desmontado
-        return () => {
-            window.removeEventListener('resize', checkMobile);
-        };
-    }, []);
+    const isMobile = useIsMobile(); // Use o hook para verificar se é um dispositivo móvel
 
     return (
         <div className="relative h-screen overflow-hidden">
