@@ -5,7 +5,7 @@ const Carrinho = () => {
   const { cart, removeFromCart, clearCart } = useContext(CartContext);
   const total = cart.reduce((acc, item) => acc + parseFloat(item.price.replace('R$', '').trim()), 0);
   return (
-    <div className="h-auto flex items-center justify-center flex-col bg-gradient-to-t from-slate-700 to-black  text-white">
+    <div className="h-auto min-h-screen flex items-center justify-center flex-col bg-gradient-to-t from-slate-700 to-black  text-white">
       <h1 className="mt-36 text-4xl text-center py-8">Carrinho</h1>
       <div className="px-8">
         {cart.length === 0 ? (
