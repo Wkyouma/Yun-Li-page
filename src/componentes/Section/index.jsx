@@ -7,7 +7,6 @@ const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor
     const handleClick = () => {
         window.scrollTo(0, 0); 
     };
-
     return (
         <div className="relative h-screen overflow-hidden">
             <div 
@@ -32,7 +31,7 @@ const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor
                         </p>
                         <Link  
                             to={`/album/${albumId}`}
-                            onClick={handleClick}  // Volta ao topo ao clicar
+                            onClick={handleClick} 
                             className={`${buttonColor} hover:bg-opacity-80 text-white font-bold py-3 px-8 rounded-full 
                                     transform transition hover:scale-105 hover:shadow-neon`}
                         >
@@ -44,5 +43,4 @@ const Section = ({ title, subtitle, bgImage, borderColor, buttonColor, textColor
         </div>
     );
 }
-
 export default Section;

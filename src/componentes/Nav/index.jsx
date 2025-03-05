@@ -8,6 +8,7 @@ const Nav = () => {
                     <Link to="/" className="text-white text-2xl font-bold hover:text-green-500 transition-colors">
                         YUN LI
                     </Link>
+
                     <div className="space-x-4 md:flex md:space-x-8">
                         <Link to="/" className="text-gray-300 hover:text-green-500 transition-colors">
                             Home
